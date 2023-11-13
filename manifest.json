@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "HWM Roulette Bot - Thanos Shadow",
+    "version": "1.0",
+    "author": "A1oneM",
+    "description": "",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.heroeswm.ru/roulette*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
